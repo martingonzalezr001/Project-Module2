@@ -1,0 +1,105 @@
+1. Teams,,
+Stores information about soccer teams.,,
+,,
+Field Name,Meaning,Example
+TeamID,Unique identifier for the team.,"1, 2, 2003"
+TeamName,Name of the soccer team.,"Manchester United, ""Real Madrid"""
+CoachName,Name of the team's coach.,"Erik ten Hag, ""Carlo Ancelotti"""
+Country,Country the team represents.,"England, ""Spain"""
+FoundedYear,Year the team was founded.,"1878, 1902"
+,,
+2. Players,,
+Stores information about individual players.,,
+,,
+Field Name,Meaning,Example
+PlayerID,Unique identifier for the player.,"101, 102, 103"
+PlayerName,Name of the player.,"Cristiano Ronaldo, ""Lionel Messi"""
+TeamID,References the team the player belongs to.,"1 (linked to ""Manchester United"")"
+Position,Player's position on the field.,"Forward, ""Midfielder"""
+BirthDate,Birth date of the player.,"1985-02-05, ""1987-06-24"""
+Nationality,Nationality of the player.,"Portugal, ""Argentina"""
+,,
+3. Matches,,
+Stores information about matches played between teams.,,
+,,
+Field Name,Meaning,Example
+MatchID,Unique identifier for the match.,"201, 202, 203"
+TournamentID,References the tournament in which the match is played.,"1 (linked to ""Champions League"")"
+VenueID,References the venue where the match is played.,"301 (linked to ""Old Trafford"")"
+Date,Date of the match.,2023-04-10
+HomeTeamID,References the home team.,"1 (linked to ""Manchester United"")"
+AwayTeamID,References the away team.,"2 (linked to ""Real Madrid"")"
+FinalScore,Final score of the match.,"2-1, ""1-3"""
+,,
+4. PlayerStats,,
+Tracks performance statistics for players in specific matches.,,
+,,
+Field Name,Meaning,Example
+StatID,Unique identifier for the statistics entry.,"301, 302, 303"
+MatchID,References the match where the performance occurred.,"201 (linked to ""Match 201"")"
+PlayerID,References the player whose stats are recorded.,"101 (linked to ""Cristiano Ronaldo"")"
+MinutesPlayed,Total minutes played in the match.,"90, 45"
+Goals,Number of goals scored by the player.,"2, 0"
+Assists,Number of assists made by the player.,"1, 0"
+PassAccuracy,Pass accuracy percentage.,"85.5, 78.0"
+ShotsOnTarget,Number of shots on target by the player.,"3, 1"
+,,
+5. TeamStats,,
+Tracks performance statistics for teams in specific matches.,,
+,,
+Field Name,Meaning,Example
+TeamStatID,Unique identifier for the team statistics entry.,"401, 402, 403"
+MatchID,References the match where the stats are recorded.,"201 (linked to ""Match 201"")"
+TeamID,References the team whose stats are recorded.,"1 (linked to ""Manchester United"")"
+Possession,Ball possession percentage for the team.,"56.7, 43.3"
+Shots,Total number of shots taken by the team.,"15, 10"
+ShotsOnTarget,Shots on target by the team.,"7, 5"
+Fouls,Total fouls committed by the team.,"12, 8"
+,,
+6. Goals,,
+Tracks goals scored during matches.,,
+,,
+Field Name,Meaning,Example
+GoalID,Unique identifier for the goal entry.,"501, 502, 503"
+MatchID,References the match in which the goal was scored.,"201 (linked to ""Match 201"")"
+PlayerID,References the player who scored the goal.,"101 (linked to ""Cristiano Ronaldo"")"
+TeamID,References the team that scored the goal.,"1 (linked to ""Manchester United"")"
+Minute,Minute of the match when the goal was scored.,"23, 87"
+,,
+7. Assists,,
+Tracks assists made during matches.,,
+,,
+Field Name,Meaning,Example
+AssistID,Unique identifier for the assist entry.,"601, 602, 603"
+MatchID,References the match in which the assist occurred.,"201 (linked to ""Match 201"")"
+PlayerID,References the player who made the assist.,"102 (linked to ""Lionel Messi"")"
+TeamID,References the team of the assisting player.,"2 (linked to ""Real Madrid"")"
+Minute,Minute of the match when the assist occurred.,"45, 66"
+,,
+8. Events,,
+"Logs events during matches, such as yellow cards, red cards, and substitutions.",,
+,,
+Field Name,Meaning,Example
+EventID,Unique identifier for the event.,"701, 702, 703"
+MatchID,References the match in which the event occurred.,"201 (linked to ""Match 201"")"
+PlayerID,References the player involved in the event.,"101 (linked to ""Cristiano Ronaldo"")"
+EventType,Type of event.,"Yellow Card, ""Substitution"""
+Minute,Minute of the match when the event occurred.,"32, 78"
+,,
+9. Tournaments,,
+Stores information about tournaments.,,
+,,
+Field Name,Meaning,Example
+TournamentID,Unique identifier for the tournament.,"1, 2, 2003"
+Name,Name of the tournament.,"Champions League, ""World Cup"""
+StartDate,Start date of the tournament.,2023-02-10
+EndDate,End date of the tournament.,2023-05-30
+,,
+10. Venues,,
+Tracks information about match venues.,,
+,,
+Field Name,Meaning,Example
+VenueID,Unique identifier for the venue.,"301, 302, 303"
+VenueName,Name of the venue.,"Old Trafford, ""Santiago Bernabeu"""
+City,City where the venue is located.,"Manchester, ""Madrid"""
+Capacity,Seating capacity of the venue.,"75000, 81000"
