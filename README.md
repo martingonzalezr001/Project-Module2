@@ -3,24 +3,25 @@
 
 ## Table of Contents
 
-Introduction
+[Introduction](#Introduction)
 
-Data Models
+[Data Models](#Data Models)
 
-Dashboard Mockup
+[Dashboard Mockup](#Dashboard Mockup)
 
 
-Architecture Diagram
+[Architecture Diagram](#Architecture Diagram)
 
 Built With
 
-References
+[References](#References)
 
 ## Introduction
 
-This project involves the creation of a data analysis dashboard to provide insights into key business metrics. The dashboard leverages Power BI for data visualization and analysis, offering a user-friendly interface for stakeholders to explore data trends, patterns, and actionable insights.
+This project involves the creation of a data analysis dashboard to provide insights from football metrics. The dashboard leverages Power BI for data visualization and analysis, offering a user-friendly interface for to explore data trends, actionable insights about footbal teams.
 
 ## Data Models
+![Alt text](./img/ER_model_final.png.png)
 
 
 ## Dashboard Mockup
@@ -60,13 +61,15 @@ Power BI Dashboard: Visualization and reporting.
 DAX (Data Analysis Expressions): Used for creating calculated columns, measures, and custom aggregations.
 
 
-References
+## References
 
 Learning Resources:
 
 Microsoft Power BI Documentation
 
 DAX Guide
+
+
 
 
 
