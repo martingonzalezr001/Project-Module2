@@ -62,7 +62,7 @@ Power BI Dashboard: Visualization and reporting.
 
 [Data Sources] --> [ETL Process] --> [Power BI Data Model] --> [Power BI Dashboard]
 
-![Alt text]("./img/data-architect-diagram.png")
+![Alt text](./img/data-architect-diagram.png)
 DAX (Data Analysis Expressions): Used for creating calculated columns, measures, and custom aggregations.
 
 
