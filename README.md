@@ -27,13 +27,7 @@ This project involves the creation of a data analysis dashboard to provide insig
 
 Below is a conceptual mockup of the dashboard:
 
-Sales Overview: Displays total sales, revenue, and profit by region and product category.
-
-Customer Insights: Shows customer demographics, average purchase frequency, and top customers by revenue.
-
-Time Series Analysis: Visualizes sales trends over time with filters for year, quarter, and month.
-
-Product Performance: Highlights top-performing products by sales and profit margin.
+![Alt text](./img/mock-up-M2.png)
 
 Data Loading and Transformation
 
@@ -62,15 +56,9 @@ Power BI Dashboard: Visualization and reporting.
 
 [Data Sources] --> [ETL Process] --> [Power BI Data Model] --> [Power BI Dashboard]
 
-Built With
-
-This project was built using the following technologies:
-
-Power BI: Used for data visualization, transformation, and dashboard creation.
-
+![Alt text](./img/data-architecture-diagram.png)
 DAX (Data Analysis Expressions): Used for creating calculated columns, measures, and custom aggregations.
 
-Power Query: Utilized for data extraction, transformation, and loading.
 
 References
 
