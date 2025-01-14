@@ -18,7 +18,7 @@
 This project involves the creation of a data analysis dashboard to provide insights from football metrics. The dashboard leverages Power BI for data visualization and analysis, offering a user-friendly interface for to explore data trends, actionable insights about footbal teams.
 
 ## Data Models
-![Alt text](./img/ER_model_final.png.png)
+![Alt text](./img/ER_model_final.png)
 
 
 ## Dashboard Mockup
