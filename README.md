@@ -9,10 +9,7 @@
 
 [Dashboard Mockup](#Dashboard-Mockup)
 
-
 [Architecture Diagram](#Architecture-Diagram)
-
-Built With
 
 [References](#References)
 
@@ -54,10 +51,11 @@ ETL Process: Data loading, transformation, and modeling in Power BI.
 
 Power BI Dashboard: Visualization and reporting.
 
+DAX (Data Analysis Expressions): Used for creating calculated columns, measures, and custom aggregations.
+
 [Data Sources] --> [ETL Process] --> [Power BI Data Model] --> [Power BI Dashboard]
 
 ![Alt text](./img/data-architecture-diagram.png)
-DAX (Data Analysis Expressions): Used for creating calculated columns, measures, and custom aggregations.
 
 
 ## References
@@ -69,7 +67,7 @@ Microsoft Power BI Documentation
 DAX Guide
 
 Youtube: 
-[Tutoriales Dashboard PowerBI](https://www.youtube.com/watch?v=TXZfkgRhy3s&t=1983s)
+<a href="https://www.youtube.com/watch?v=TXZfkgRhy3s&t=1983s" target="_blank">Tutoriales Dashboard PowerBI</a>
 
 
 
