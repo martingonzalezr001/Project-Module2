@@ -62,15 +62,9 @@ Power BI Dashboard: Visualization and reporting.
 
 [Data Sources] --> [ETL Process] --> [Power BI Data Model] --> [Power BI Dashboard]
 
-Built With
-
-This project was built using the following technologies:
-
-Power BI: Used for data visualization, transformation, and dashboard creation.
-
+![Alt text]("./img/data-architect-diagram.png")
 DAX (Data Analysis Expressions): Used for creating calculated columns, measures, and custom aggregations.
 
-Power Query: Utilized for data extraction, transformation, and loading.
 
 References
 
