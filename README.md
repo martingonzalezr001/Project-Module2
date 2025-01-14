@@ -5,12 +5,12 @@
 
 [Introduction](#Introduction)
 
-[Data Models](#Data Models)
+[Data Models](#Data-Models)
 
-[Dashboard Mockup](#Dashboard Mockup)
+[Dashboard Mockup](#Dashboard-Mockup)
 
 
-[Architecture Diagram](#Architecture Diagram)
+[Architecture Diagram](#Architecture-Diagram)
 
 Built With
 
@@ -49,7 +49,6 @@ Create calculated columns and measures in Power BI using DAX (Data Analysis Expr
 
 The architecture diagram illustrates the data flow:
 
-Data Sources: SQL databases, cloud storage, Excel sheets.
 
 ETL Process: Data loading, transformation, and modeling in Power BI.
 
@@ -69,6 +68,8 @@ Microsoft Power BI Documentation
 
 DAX Guide
 
+Youtube: 
+[Tutoriales Dashboard PowerBI](https://www.youtube.com/watch?v=TXZfkgRhy3s&t=1983s)
 
 
 
